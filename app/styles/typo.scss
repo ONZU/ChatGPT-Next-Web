@@ -1,0 +1,64 @@
+$carloschi-font-path:          "/fonts/Carloschi" !default;
+$carloschi-font-name:          "Carloschi";
+$carloschi-book-font-name:     "Carloschi Book";
+$carloschi-version:            "1.0.0";
+$carloschi-book-filename:      "Carloschi-Book";
+$carloschi-light-filename:     "Carloschi-Light";
+$carloschi-regular-filename:   "Carloschi-Regular";
+$carloschi-semibold-filename:  "Carloschi-SemiBold";
+$carloschi-bold-filename:      "Carloschi-Bold";
+
+@font-face {
+  font-family: '#{$carloschi-book-font-name}';
+  src: url('#{$carloschi-font-path}/#{$carloschi-book-filename}.eot?v=#{$carloschi-version}');
+  src: url('#{$carloschi-font-path}/#{$carloschi-book-filename}.eot?#iefix&v=#{$carloschi-version}') format('embedded-opentype'),
+  url('#{$carloschi-font-path}/#{$carloschi-book-filename}.woff2?v=#{$carloschi-version}') format('woff2'),
+  url('#{$carloschi-font-path}/#{$carloschi-book-filename}.woff?v=#{$carloschi-version}') format('woff'),
+  url('#{$carloschi-font-path}/#{$carloschi-book-filename}.ttf?v=#{$carloschi-version}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$carloschi-font-name}';
+  src: url('#{$carloschi-font-path}/#{$carloschi-light-filename}.eot?v=#{$carloschi-version}');
+  src: url('#{$carloschi-font-path}/#{$carloschi-light-filename}.eot?#iefix&v=#{$carloschi-version}') format('embedded-opentype'),
+  url('#{$carloschi-font-path}/#{$carloschi-light-filename}.woff2?v=#{$carloschi-version}') format('woff2'),
+  url('#{$carloschi-font-path}/#{$carloschi-light-filename}.woff?v=#{$carloschi-version}') format('woff'),
+  url('#{$carloschi-font-path}/#{$carloschi-light-filename}.ttf?v=#{$carloschi-version}') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$carloschi-font-name}';
+  src: url('#{$carloschi-font-path}/#{$carloschi-regular-filename}.eot?v=#{$carloschi-version}');
+  src: url('#{$carloschi-font-path}/#{$carloschi-regular-filename}.eot?#iefix&v=#{$carloschi-version}') format('embedded-opentype'),
+  url('#{$carloschi-font-path}/#{$carloschi-regular-filename}.woff2?v=#{$carloschi-version}') format('woff2'),
+  url('#{$carloschi-font-path}/#{$carloschi-regular-filename}.woff?v=#{$carloschi-version}') format('woff'),
+  url('#{$carloschi-font-path}/#{$carloschi-regular-filename}.ttf?v=#{$carloschi-version}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$carloschi-font-name}';
+  src: url('#{$carloschi-font-path}/#{$carloschi-bold-filename}.eot?v=#{$carloschi-version}');
+  src: url('#{$carloschi-font-path}/#{$carloschi-bold-filename}.eot?#iefix&v=#{$carloschi-version}') format('embedded-opentype'),
+  url('#{$carloschi-font-path}/#{$carloschi-bold-filename}.woff2?v=#{$carloschi-version}') format('woff2'),
+  url('#{$carloschi-font-path}/#{$carloschi-bold-filename}.woff?v=#{$carloschi-version}') format('woff'),
+  url('#{$carloschi-font-path}/#{$carloschi-bold-filename}.ttf?v=#{$carloschi-version}') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$carloschi-font-name}';
+  src: url('#{$carloschi-font-path}/#{$carloschi-semibold-filename}.eot?v=#{$carloschi-version}');
+  src: url('#{$carloschi-font-path}/#{$carloschi-semibold-filename}.eot?#iefix&v=#{$carloschi-version}') format('embedded-opentype'),
+  url('#{$carloschi-font-path}/#{$carloschi-semibold-filename}.woff2?v=#{$carloschi-version}') format('woff2'),
+  url('#{$carloschi-font-path}/#{$carloschi-semibold-filename}.woff?v=#{$carloschi-version}') format('woff'),
+  url('#{$carloschi-font-path}/#{$carloschi-semibold-filename}.ttf?v=#{$carloschi-version}') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
