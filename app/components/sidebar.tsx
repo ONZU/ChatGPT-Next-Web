@@ -4,7 +4,7 @@ import styles from "./home.module.scss";
 
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
-import JvMIcon from "../icons/jvm-horse.svg";
+import NavosIcon from "../icons/navos_Logo_2023_Logo_negativ.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import MaskIcon from "../icons/mask.svg";
@@ -144,10 +144,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-logo"] + " no-dark"}>
-          <JvMIcon />
+          <NavosIcon />
         </div>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          TroyGPT
+          Eule
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Securely speak to OpenAIs chatGPT via API.

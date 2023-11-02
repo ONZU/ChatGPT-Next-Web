@@ -62,3 +62,50 @@ $carloschi-bold-filename:      "Carloschi-Bold";
   font-weight: 700;
   font-style: normal;
 }
+
+$barlow_condensed-font-path:          "/fonts/Barlow_Condensed" !default;
+$barlow_condensed-font-name:          "Barlow Condensed";
+$barlow_condensed-version:            "1.0.0";
+$barlow_condensed-light-filename:     "BarlowCondensed-Light";
+$barlow_condensed-regular-filename:   "BarlowCondensed-Regular";
+$barlow_condensed-semibold-filename:  "BarlowCondensed-SemiBold";
+$barlow_condensed-bold-filename:      "BarlowCondensed-Bold";
+
+@font-face {
+  font-family: '#{$barlow_condensed-font-name}';
+  src: url('#{$barlow_condensed-font-path}/#{$barlow_condensed-light-filename}.ttf?v=#{$barlow_condensed-version}') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$barlow_condensed-font-name}';
+  src: url('#{$barlow_condensed-font-path}/#{$barlow_condensed-regular-filename}.ttf?v=#{$barlow_condensed-version}') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$barlow_condensed-font-name}';
+  src: url('#{$barlow_condensed-font-path}/#{$barlow_condensed-semibold-filename}.ttf?v=#{$barlow_condensed-version}') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '#{$barlow_condensed-font-name}';
+  src: url('#{$barlow_condensed-font-path}/#{$barlow_condensed-bold-filename}.ttf?v=#{$barlow_condensed-version}') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+$montserrat-font-path:  "/fonts/Montserrat" !default;
+$montserrat-font-name:  "Montserrat";
+$montserrat-version:    "1.0.0";
+$montserrat-filename:   "Montserrat-VariableFont_wght";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('#{$montserrat-font-path}/#{$montserrat-filename}.ttf?v=#{$montserrat-version}') format("truetype-variations");
+  font-weight: 100 900;
+}

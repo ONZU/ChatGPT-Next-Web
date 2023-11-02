@@ -30,33 +30,17 @@ export function AuthPage() {
         <BotIcon />
       </div>
 
-      {/*<div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
-      <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>*/}
-      <div className={styles["auth-title"]}>Service terms</div>
-      <div className={styles["auth-tips"]}>
-        Please read the{" "}
-        <a
-          href={"https://confluence.jvm.de/display/JvMKS/AI-INSIGHTS"}
-          target={"_blank"}
-        >
-          guideline
-        </a>{" "}
-        so your work won&apos;t be subject to any copyright or policy
-        violations.
-        <br />
-        <br />
-        Do you accept these rules?
-      </div>
-
-      {/*<input
+      <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
+      <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
+      <input
         className={styles["auth-input"]}
         type="password"
         placeholder={Locale.Auth.Input}
         value={access.accessCode}
         onChange={(e) => {
           access.updateCode(e.currentTarget.value);
-        }
-      />*/}
+        }}
+      />
 
       <div className={styles["auth-actions"]}>
         <IconButton
